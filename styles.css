@@ -1,0 +1,171 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: Inter, "Segoe UI", Roboto, sans-serif;
+}
+
+.stApp {
+  background: linear-gradient(135deg, #07111f 0%, #101d34 45%, #1b2f4b 100%);
+}
+
+.block-container {
+  max-width: 1200px;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.study-lens-shell {
+  margin-bottom: 1.25rem;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 24px;
+  padding: 24px 28px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12px);
+}
+
+.hero-card h1 {
+  font-size: 2.2rem;
+  margin: 0 0 0.3rem 0;
+  color: #f8fbff;
+}
+
+.hero-card p {
+  color: #dfe7f3;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(122, 162, 255, 0.18);
+  color: #a9c4ff;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-badges {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.badge {
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #f3f6ff;
+  font-size: 0.9rem;
+}
+
+.section-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 16px 18px;
+  margin: 1rem 0 1.2rem 0;
+  color: #eef4ff;
+}
+
+.section-card h2,
+.section-card h3 {
+  margin: 0 0 0.4rem 0;
+  color: #ffffff;
+}
+
+.stSidebar {
+  background: rgba(7, 15, 28, 0.95);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stButton > button {
+  border-radius: 999px !important;
+  background: linear-gradient(135deg, #4f8cff 0%, #6d5dfc 100%) !important;
+  color: white !important;
+  border: none !important;
+  padding: 0.55rem 1rem !important;
+  font-weight: 600 !important;
+  box-shadow: 0 8px 20px rgba(98, 123, 255, 0.25) !important;
+}
+
+.stButton > button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(98, 123, 255, 0.35) !important;
+}
+
+.stTextInput > div > div > input,
+.stTextArea textarea {
+  border-radius: 12px !important;
+  border: 1px solid rgba(122, 162, 255, 0.3) !important;
+  background: rgba(122, 162, 255, 0.1) !important;
+  color: white !important;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out !important;
+}
+
+.stTextInput > div > div > input:focus,
+.stTextArea textarea:focus {
+  outline: none !important;
+  border-color: #4f8cff !important;
+  box-shadow: 0 0 0 3px rgba(79, 140, 255, 0.25) !important;
+}
+
+.stTextInput label,
+.stTextArea label,
+.stSelectbox label {
+  color: #e0e8f7 !important;
+}
+
+.stAlert {
+  border-radius: 14px !important;
+}
+
+/* Hide Streamlit's default header and footer */
+header {
+  visibility: hidden;
+}
+
+#MainMenu {
+  visibility: hidden;
+}
+
+footer {
+  visibility: hidden;
+}
+
+/* Custom styles for the file upload box */
+.upload-box {
+  border: 2px dashed rgba(122, 162, 255, 0.6);
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  margin-bottom: 16px;
+  color: #dfe7f3;
+}
+
+.upload-box .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.upload-box .title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #f8fbff;
+}
+
+.upload-box .subtitle {
+  font-size: 1rem;
+  color: #a9c4ff;
+}

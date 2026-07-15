@@ -1,0 +1,19 @@
+Course: Introduction to Data Science
+Instructor: Dr. Maya Chen
+Semester: Fall 2026
+
+Course Description:
+This course introduces students to the fundamentals of data science, including Python, statistics, and data visualization.
+
+Grading Policy:
+- Homework: 30%
+- Midterm Exam: 25%
+- Final Project: 25%
+- Participation: 20%
+
+Important Dates:
+- Midterm Exam: October 20, 2026
+- Final Project Due: December 10, 2026
+
+Office Hours:
+Tuesday and Thursday, 3:00 PM to 5:00 PM.
